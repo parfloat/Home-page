@@ -28,6 +28,7 @@
     <a href="#papers">Papers</a>
     <a href="#recognition">Recognition</a>
     <a href="#classes">Classes</a>
+    <a href="#redirect">Redirect Plan</a>
   </nav>
 
   <main>
@@ -42,9 +43,9 @@
         </p>
         <p>
           This managed draft is based on the current public Utah homepage at
-          <a href="https://users.cs.utah.edu/~ganesh/">users.cs.utah.edu/~ganesh</a>,
-          but presented using the cleaner theme and navigation style used in the
-          newer ParFloat pages.
+          <a href="https://users.cs.utah.edu/~ganesh/">users.cs.utah.edu/~ganesh</a>
+          and is intended to become the maintained public destination that the
+          Utah-hosted page can later redirect to.
         </p>
       </div>
       <div class="card">
@@ -63,7 +64,7 @@
       </div>
     </section>
 
-    <section id="research" class="panel">
+    <section id="research" class="panel alt">
       <h2>Research Pages</h2>
       <div class="cards">
         <div class="card">
@@ -84,16 +85,17 @@
       </div>
     </section>
 
-    <section id="highlights" class="panel">
+    <section id="highlights" class="panel alt">
       <h2>Recent Highlights</h2>
       <ul class="compact-list">
         <li><a href="https://drive.google.com">Recent lecture slides</a> covering silicon manufacturing, floating-point arithmetic, GPT explanations, and SMT-driven modeling of tensor-core floating-point behavior.</li>
         <li>PLDI 2025 Array Workshop: <a href="https://github.com">paper and slides</a> plus <a href="https://www.youtube.com">talk video</a>.</li>
         <li>Automata and Computability activity edition book <a href="https://bit.ly">here</a>, with <a href="https://youtu.be">overview video</a>.</li>
+        <li>Recent highlights on the Utah page emphasize both formal rigor and artifact release, especially for GPU race checking, floating-point exception targeting, and compression-aware scientific computing.</li>
       </ul>
     </section>
 
-    <section id="funding" class="panel">
+    <section id="funding" class="panel alt">
       <h2>Funding and Research Support</h2>
       <p>
         The current Utah homepage lists DOE and NSF support for work on
@@ -111,33 +113,47 @@
       </ol>
     </section>
 
-    <section id="papers" class="panel">
+    <section id="papers" class="panel alt">
       <h2>Recent Papers and Software Releases</h2>
       <p>
         The Utah homepage foregrounds GPU correctness, floating-point exception
         analysis, numerical testing, and rigorous error reasoning. The items
         below are representative links preserved from the public page.
       </p>
-      <ol class="numbered-list">
-        <li><a href="https://arxiv.org">HiRace</a>: source-level race checking of GPU programs.</li>
-        <li><a href="https://arxiv.org">Rigorous error analysis for logarithmic number systems</a>.</li>
-        <li><a href="https://dl.acm.org">FPBOXer</a>: targeting floating-point exceptions in GPU programs.</li>
-        <li><a href="https://arxiv.org">FTTN paper</a> and <a href="https://zenodo.org">software</a>.</li>
-        <li><a href="https://arxiv.org">DOE/NSF workshop report on correctness in scientific computing</a>.</li>
-        <li><a href="https://dl.acm.org">PyBlaz paper</a> and <a href="https://github.com">software</a>.</li>
-        <li><a href="https://dl.acm.org">GPU-FPX paper</a> and <a href="https://github.com">software</a>.</li>
-        <li><a href="https://ieeexplore.ieee.org">Xscope paper</a> on triggering floating-point exceptions in GPUs.</li>
-        <li><a href="https://www.conference-publishing.com">BinFPE</a>.</li>
-        <li>FPChecker and related numerics-guarding work.</li>
-        <li><a href="https://ieeexplore.ieee.org">Guarding Numerics Amidst Rising Heterogeneity</a>.</li>
-        <li><a href="https://cacm.acm.org">Keeping Science On Keel When Software Moves</a>.</li>
-        <li><a href="https://arxiv.org">A Programmable Approach to Model Compression</a>.</li>
-        <li><a href="https://dl.acm.org">FPDetect</a>.</li>
-        <li><a href="https://doi.org">FailAmp</a>.</li>
-        <li><a href="https://dl.acm.org">Abstraction-guided rigorous floating-point error analysis</a>.</li>
-        <li><a href="https://dl.acm.org">Symbolic Taylor expansion round-off estimation</a>.</li>
-        <li><a href="https://clustercomp.org">DiffTrace</a>.</li>
-      </ol>
+      <div class="cards">
+        <div class="card">
+          <h3>GPU Correctness and Races</h3>
+          <ul class="compact-list">
+            <li><a href="https://arxiv.org">HiRace</a>: source-level race checking of GPU programs.</li>
+            <li><a href="https://ieeexplore.ieee.org">Xscope</a>: triggering floating-point exceptions in GPUs.</li>
+            <li><a href="https://www.conference-publishing.com">BinFPE</a> and related exception detection work.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Floating-Point and Numerics</h3>
+          <ul class="compact-list">
+            <li><a href="https://dl.acm.org">FPBOXer</a>: targeting floating-point exceptions in GPU programs.</li>
+            <li><a href="https://dl.acm.org">GPU-FPX paper</a> and <a href="https://github.com">software</a>.</li>
+            <li><a href="https://dl.acm.org">FPDetect</a> and rigorous error-analysis work.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Software Artifacts</h3>
+          <ul class="compact-list">
+            <li><a href="https://arxiv.org">FTTN paper</a> and <a href="https://zenodo.org">software</a>.</li>
+            <li><a href="https://dl.acm.org">PyBlaz paper</a> and <a href="https://github.com">software</a>.</li>
+            <li><a href="https://clustercomp.org">DiffTrace</a>.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Broader Perspective</h3>
+          <ul class="compact-list">
+            <li><a href="https://arxiv.org">DOE/NSF workshop report on correctness in scientific computing</a>.</li>
+            <li><a href="https://cacm.acm.org">Keeping Science On Keel When Software Moves</a>.</li>
+            <li><a href="https://arxiv.org">A Programmable Approach to Model Compression</a>.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section id="recognition" class="panel split">
@@ -173,10 +189,24 @@
         The public Utah page notes it was last modified in August 2024.
       </p>
     </section>
+
+    <section id="redirect" class="panel alt">
+      <h2>Redirect Plan</h2>
+      <p>
+        The intended deployment plan is to keep this repository as the managed
+        public destination, then place a lightweight redirecting
+        <code>index.html</code> on the Utah host at <code>www.cs.utah.edu/~ganesh</code>
+        so the old URL automatically forwards visitors here.
+      </p>
+      <p>
+        A ready-to-use redirect stub is included in this repository as
+        <a href="utah-redirect-index.html">utah-redirect-index.html</a>.
+      </p>
+    </section>
   </main>
 
   <footer>
-    <p>Managed draft of Ganesh Gopalakrishnan's Utah homepage inside <code>parfloat-class/Home-Page</code>.</p>
+    <p>Managed draft of Ganesh Gopalakrishnan's Utah homepage in the public <code>parfloat/Home-page</code> repository.</p>
   </footer>
 </body>
 </html>
