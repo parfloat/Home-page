@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #18222d;
+    background: #f5f1e8;
+    line-height: 1.7;
+}
+
+a {
+    color: #6f1d1b;
+}
+
+a:hover {
+    color: #9c2f2a;
+}
+
+.hero {
+    background: linear-gradient(135deg, rgba(20, 33, 61, 0.93), rgba(122, 52, 32, 0.86));
+    color: #fff7eb;
+    padding: 4rem 1.5rem 3.4rem;
+}
+
+.hero-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.eyebrow {
+    margin: 0 0 0.8rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.82rem;
+}
+
+.hero h1 {
+    margin: 0;
+    color: #f3d34a;
+    font-size: clamp(1.8rem, 3.2vw, 3rem);
+    line-height: 1.02;
+}
+
+.lede {
+    max-width: 48rem;
+    margin-top: 1rem;
+    font-size: 1.08rem;
+}
+
+.topnav {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.9rem 1.2rem;
+    background: #18222d;
+}
+
+.topnav a {
+    color: #f8efe1;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 1.8rem 1.2rem 3.5rem;
+}
+
+.panel {
+    margin: 1.4rem 0;
+    padding: 1.5rem;
+    background: rgba(255, 251, 243, 0.93);
+    border: 1px solid rgba(24, 34, 45, 0.08);
+    box-shadow: 0 14px 28px rgba(24, 34, 45, 0.08);
+}
+
+.panel h2 {
+    margin-top: 0;
+    color: #18222d;
+    font-size: 1.7rem;
+}
+
+.split {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 1.6rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    padding: 1rem 1.1rem;
+    background: #fffdf8;
+    border-left: 4px solid #6f1d1b;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #6f1d1b;
+}
+
+.compact-list,
+.numbered-list {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.compact-list li,
+.numbered-list li {
+    margin-bottom: 0.45rem;
+}
+
+.contact-list {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.contact-list li {
+    margin-bottom: 0.45rem;
+}
+
+.timeline-note {
+    font-size: 0.95rem;
+    color: #4a535c;
+}
+
+footer {
+    padding: 1.4rem;
+    background: #18222d;
+    color: #f5f1e8;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 860px) {
+    .split,
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
