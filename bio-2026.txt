@@ -1,0 +1,17 @@
+Bio as of 6/29/2024: Ganesh L. Gopalakrishnan (Senior Member of IEEE and ACM Distinguished Scientist) earned his B.Sc.(EE) degree from NIT Calicut in 1978, M.Tech (EE) from IIT Kanpur in 1980, and PhD in Computer Science from Stony Brook University in 1986, when he joined the University of Utah. Prof.
+
+Gopalakrishnan's notable contribution to computer science education is through his Jove software system that was authored by him, and is hosted at https://github.com/ganeshutah/Jove.git backed by his textbook Automata and Computability: A Programmer's Perspective, CRC Press, 2019. An earlier book by him entitled Computation Engineering: Applied Automata Theory and Logic, Springer, 2006, also offers a unique perspective into his approach to teach automata and logic in a hands-on way. Prof.
+
+Gopalakrishnan has been the primary advisor for 26 graduated PhD students and is currently advising six more PhD students. For this, he obtains funding from the Department of Energy and seven active NSF grants. He has published over 200 refereed papers, and has mentored 60 Undergraduate Researchers to date. His main research interests are in correctness and reproducibility methods for software involving floating-point operations.
+
+In this area, he is working on binary instrumentation for GPU floating-point exception checking, using Bayesian Optimization for triggering exceptions, and the construction of LLVM-based floating-point analysis tools. He is also working on data compression methods, neural-network compression, and data race checking in shared memory parallel programs. Please look at the publications over five years listed on the website https://www.cs.utah.edu/~ganesh Prof.
+
+Gopalakrishnan maintains steady interest in computer science foundations and formal methods, having published in the first Computer Aided Verification conference in 1989. He blends his interest in formal methods with pragmatic needs that arise in practical implementations of Scientific Computing software on CPU and GPU-based machines.
+
+His external engagements include Visiting Assistant Professorship at the University of Calgary (1988-89) and sabbatical visits at Stanford University (1995-96), Intel (2002-03), and sabbatical projects with Microsoft on developing parallel computing curriculum (2009-10), and work on textbooks using Jupyter notebooks in undergraduate Discrete Math and Automata Theory classes (2016-17). Prof.
+
+Gopalakrishnan was awarded one of the six "Beacons of Excellence" Awards for 2012 by the University of Utah for his work on mentoring undergraduates.
+
+His PhD students have received these honors: 2023 DRBSD Workshop Best Paper Award for their work on PyBlaz (direct operations on compressed data by PhD students Tripti Agarwal and Harvey Dam), 2020 Best Student Paper in Supercomputing 2020 (PhD student Arnab Das); 2020 Test of Time Honorable Mention in Foundations of Software Engineering 2020 (PhD student Guodong Li for his paper in 2010); 2020 Nvidia Graduate Fellowship (PhD student Vinu Joseph); and Lawrence Livermore National Laboratory Director's 2020 Excellence in Publication (Student Category Winner, Ph.D.
+
+Student: Michael Bentley).
