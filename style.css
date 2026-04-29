@@ -27,8 +27,8 @@ a:hover {
 
 .hero-grid {
     display: grid;
-    grid-template-columns: minmax(0, 0.9fr) 4cm;
-    gap: 1.8rem;
+    grid-template-columns: minmax(0, 1fr) 7cm;
+    gap: 2.4rem;
     align-items: start;
 }
 
@@ -59,22 +59,31 @@ a:hover {
 
 .hero-photo {
     margin: 0;
-    justify-self: end;
-    width: 4cm;
-    height: 4cm;
+    justify-self: start;
+    align-self: start;
+    width: 7cm;
+    height: 7cm;
     overflow: hidden;
+    margin-top: 1.35cm;
+    margin-left: -1.1cm;
+    padding: 0.22cm;
+    background: linear-gradient(135deg, #e8cf7c, #c59a43);
+    border: 1px solid rgba(120, 78, 18, 0.9);
+    box-shadow:
+        0 0 0 2px rgba(120, 78, 18, 0.35),
+        0 18px 30px rgba(0, 0, 0, 0.28);
 }
 
 .hero-photo img {
     display: block;
-    width: 4cm;
-    min-width: 4cm;
-    height: 4cm;
-    max-width: 4cm;
-    max-height: 4cm;
+    width: 7cm;
+    min-width: 7cm;
+    height: 7cm;
+    max-width: 7cm;
+    max-height: 7cm;
     object-fit: cover;
-    border: 3px solid rgba(255, 247, 235, 0.55);
-    box-shadow: 0 16px 28px rgba(0, 0, 0, 0.25);
+    border: 3px solid rgba(255, 247, 235, 0.72);
+    box-shadow: inset 0 0 0 1px rgba(120, 78, 18, 0.28);
 }
 
 .topnav {
@@ -186,5 +195,6 @@ footer p {
     .hero-photo {
         justify-self: start;
         margin-top: 0.8rem;
+        margin-left: 0;
     }
 }
