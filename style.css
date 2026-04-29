@@ -60,14 +60,19 @@ a:hover {
 .hero-photo {
     margin: 0;
     justify-self: end;
+    width: 4cm;
+    height: 4cm;
+    overflow: hidden;
 }
 
 .hero-photo img {
     display: block;
     width: 4cm;
+    min-width: 4cm;
+    height: 4cm;
     max-width: 4cm;
     max-height: 4cm;
-    height: auto;
+    object-fit: cover;
     border: 3px solid rgba(255, 247, 235, 0.55);
     box-shadow: 0 16px 28px rgba(0, 0, 0, 0.25);
 }
