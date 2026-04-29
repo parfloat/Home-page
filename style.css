@@ -127,7 +127,7 @@ main {
 
 .split {
     display: grid;
-    grid-template-columns: 1.45fr 0.55fr;
+    grid-template-columns: 1.25fr 0.75fr;
     gap: 1.6rem;
 }
 
