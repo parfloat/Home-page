@@ -27,7 +27,7 @@ a:hover {
 
 .hero-grid {
     display: grid;
-    grid-template-columns: minmax(0, 0.9fr) 240px;
+    grid-template-columns: minmax(0, 0.9fr) 4cm;
     gap: 1.8rem;
     align-items: start;
 }
@@ -64,7 +64,9 @@ a:hover {
 
 .hero-photo img {
     display: block;
-    width: 240px;
+    width: 4cm;
+    max-width: 4cm;
+    max-height: 4cm;
     height: auto;
     border: 3px solid rgba(255, 247, 235, 0.55);
     box-shadow: 0 16px 28px rgba(0, 0, 0, 0.25);
